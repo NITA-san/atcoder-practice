@@ -1,3 +1,2 @@
 # atcoder-practice
-練習<BR>
-練習
+atcoderで練習<BR>
