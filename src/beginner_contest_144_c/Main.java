@@ -7,14 +7,19 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		long a = sc.nextLong();
-		long i;
+		long i, j = 1;
+		long b = (long) Math.floor(Math.sqrt(a));
 
-//		for (i = 1; a >= i * i; i++) {
+		for (i = b; i >= 1; i--) {
+			if (a % i == 0) {
+				j = i;
+				break;
+			}
+		}
 
-//		}
-		i =(long)Math.floor(Math.sqrt(a));
-		System.out.println((i - 1) * 2 + (a - i*i));
-		
+		i = a / j;
+
+		System.out.println((i - 1) + (j - 1));
 	}
 
 }
