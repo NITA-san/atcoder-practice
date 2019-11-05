@@ -10,6 +10,14 @@ public class Main {
 		int n = sc.nextInt();
 		int m = sc.nextInt();
 
+		Integer s[] = new Integer[n];
+		Integer t[] = new Integer[n];
+		
+		for (int i = 0; i < m; i++) {
+			s[i] = sc.nextInt();
+			t[i] = sc.nextInt();
+		}
+		
 	}
 
 }
