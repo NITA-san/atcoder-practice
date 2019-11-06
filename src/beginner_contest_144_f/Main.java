@@ -1,5 +1,6 @@
 package beginner_contest_144_f;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -12,12 +13,14 @@ public class Main {
 
 		Integer s[] = new Integer[n];
 		Integer t[] = new Integer[n];
-		
+
 		for (int i = 0; i < m; i++) {
 			s[i] = sc.nextInt();
 			t[i] = sc.nextInt();
 		}
-		
+
+		Arrays.stream(s).forEach(System.out::println);
+
 	}
 
 }
