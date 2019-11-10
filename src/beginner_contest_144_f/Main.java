@@ -1,6 +1,8 @@
 package beginner_contest_144_f;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
@@ -11,6 +13,8 @@ public class Main {
 		int n = sc.nextInt();
 		int m = sc.nextInt();
 
+		List<Integer> dp[] = null;
+		
 		Integer s[] = new Integer[m];
 		Integer t[] = new Integer[m];
 
@@ -19,7 +23,7 @@ public class Main {
 			t[i] = sc.nextInt();
 		}
 
-		Double[] dp = new Double[m];
+		//Double[] dp = new Double[m];
 		
 		
 		Arrays.stream(s).forEach(System.out::println);
