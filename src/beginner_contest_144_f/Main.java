@@ -13,7 +13,12 @@ public class Main {
 		int n = sc.nextInt();
 		int m = sc.nextInt();
 
-		List<Integer> dp[] = null;
+		List<Integer>[] dp = null;
+		String[] ss = new String[10];
+		ss[0] = "aa";
+		ss[1] = "bb";
+		//dp = new List<Integer>[10];
+		
 		
 		Integer s[] = new Integer[m];
 		Integer t[] = new Integer[m];
